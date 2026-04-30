@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aakash Kumar Agarwal | AI Researcher</title>
+    <meta
+      name="description"
+      content="Personal website of Aakash Kumar Agarwal, AI Researcher at IIT Bombay focusing on LLMs, NLP, and Mental Health."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div id="bg-solid"></div>
+    <div class="glow-bg"></div>
+    <canvas id="neural-bg"></canvas>
+
+    <nav>
+      <div class="nav-container">
+        <a href="#" class="logo">AA</a>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#publications">Publications</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#vibes">Vibes</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="theme-toggle" id="theme-toggle">
+          <i class="fas fa-moon"></i>
+        </div>
+        <div class="mobile-menu-btn"><i class="fas fa-bars"></i></div>
+      </div>
+    </nav>
+
+    <main>
+      <section id="hero" style="background: transparent;">
+        <div class="hero-content">
+          <div class="profile-frame">
+            <img
+              src="assets/images/avatar.jpeg"
+              alt="Aakash Kumar Agarwal"
+              class="profile-img"
+            />
+          </div>
+          <h1 class="glitch-text" data-text="Aakash Kumar Agarwal">
+            Aakash Kumar Agarwal
+          </h1>
+          <p class="tagline">
+            AI Researcher @ <span class="highlight">CFILT, IIT Bombay</span>
+          </p>
+          <p class="topics">
+            LLMs • NLP • LLM Unlearning • NLP for Mental Health •
+          </p>
+          <div class="social-links">
+            <a
+              href="https://github.com/aakash-agarwal-002"
+              target="_blank"
+              title="GitHub"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/aakash-agarwal-/"
+              target="_blank"
+              title="LinkedIn"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a
+              href="https://scholar.google.com/citations?user=e2ImDVUAAAAJ&hl=en"
+              target="_blank"
+              title="Google Scholar"
+              ><i class="fas fa-graduation-cap"></i
+            ></a>
+            <a href="mailto:aakash.agarwal.002@gmail.com" title="Email"
+              ><i class="fas fa-envelope"></i
+            ></a>
+          </div>
+          <div class="cta-buttons">
+            <a
+              href="resumes/aakash_agarwal_ai.pdf"
+              class="btn primary"
+              target="_blank"
+              >View Resume</a
+            >
+            <a href="#publications" class="btn secondary">Recent Work</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I am a Graduate Researcher at <b>IIT Bombay</b>, working at the
+              intersection of Natural Language Processing and Mental Health. My
+              research focuses on developing robust and empathetic AI systems
+              using Large Language Models.
+            </p>
+            <p>
+              Currently, I am developing <b>HyperLoRA</b>, a framework using
+              hypernetworks for parameter-efficient LLM unlearning. Previously,
+              I interned at <b>Fujitsu Research</b> where I developed frameworks
+              for hypothesis-driven reasoning.
+            </p>
+
+            <div class="github-activity">
+              <h3>GitHub Activity</h3>
+              <img
+                src="https://ghchart.rshah.org/6366f1/aakash-agarwal-002"
+                alt="Aakash's Github Chart"
+                class="gh-chart"
+              />
+            </div>
+          </div>
+          <div class="education-card">
+            <h3>Education</h3>
+            <div class="edu-item">
+              <span class="year">2023 - 2026</span>
+              <h4>MS by Research in CS (AI/ML)</h4>
+              <p>IIT Bombay</p>
+            </div>
+            <div class="edu-item">
+              <span class="year">2015 - 2019</span>
+              <h4>B.Tech in Computer Science</h4>
+              <p>Amity University</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="publications" class="container">
+        <h2 class="section-title">Selected Publications</h2>
+        <div class="pub-list">
+          <div class="pub-card glass">
+            <div class="pub-tag">AAAI 2026</div>
+            <h3>Hypothesis-Driven Reasoning for Large Language Models</h3>
+            <p class="authors"><b>Aakash Kumar Agarwal*</b>, Moyuru Yamada*</p>
+            <p class="venue">Accepted at AAAI 2026 (Main Conference)</p>
+            <div class="pub-links">
+              <a href="publications/2026.aaai-main.pdf" target="_blank"
+                ><i class="fas fa-file-pdf"></i> PDF</a
+              >
+            </div>
+          </div>
+          <div class="pub-card glass">
+            <div class="pub-tag">EMNLP 2025</div>
+            <h3>
+              ReDepress: A Cognitive Framework for Detecting Depression Relapse
+              from Social Media
+            </h3>
+            <p class="authors">
+              <b>Aakash Kumar Agarwal*</b>, Saprativa Bhattacharjee*, Pushpak
+              Bhattacharyya
+            </p>
+            <p class="venue">Accepted at EMNLP 2025 (Main Conference)</p>
+            <div class="pub-links">
+              <a href="publications/2025.emnlp-main.pdf" target="_blank"
+                ><i class="fas fa-file-pdf"></i> PDF</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="container">
+        <h2 class="section-title">Experience</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="time">May 2025 - Jul 2025</div>
+            <div class="content">
+              <h3>AI Engineer Intern</h3>
+              <h4>Fujitsu Research, Bangalore</h4>
+              <ul>
+                <li>
+                  Developed a Hypothesis-Driven Reasoning (HDR) framework to
+                  improve LLM reasoning via iterative hypothesis generation and
+                  verification.
+                </li>
+                <li>
+                  Built a two-stage memory consolidator with LangChain and
+                  LangGraph.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="time">Jan 2024 - Present</div>
+            <div class="content">
+              <h3>Student AI Researcher</h3>
+              <h4>CFILT Lab, IIT Bombay</h4>
+              <ul>
+                <li>
+                  Researching NLP applications in mental health, focusing on
+                  depression relapse prediction.
+                </li>
+                <li>
+                  Investigating LLM safety under cognitive load and multilingual
+                  conditions.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="time">May 2019 - Jul 2021</div>
+            <div class="content">
+              <h3>Application Development Associate</h3>
+              <h4>Accenture</h4>
+              <ul>
+                <li>
+                  Developed and maintained software applications to meet client
+                  requirements.
+                </li>
+                <li>
+                  Participated in full SDLC from requirements to deployment.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="project-grid">
+          <div class="project-card glass">
+            <h3>HyperLoRA for Unlearning</h3>
+            <p>
+              Built a framework using hypernetworks to generate LoRA weights for
+              parameter-efficient LLM unlearning (TOFU-SISA benchmarks).
+            </p>
+            <div class="tags">
+              <span>Hypernetworks</span><span>LoRA</span><span>Unlearning</span>
+            </div>
+          </div>
+          <div class="project-card glass">
+            <h3>Detecting Depression Relapse</h3>
+            <p>
+              MS Thesis project using cognitive biases and temporal modeling to
+              predict relapse from social media posts. Achieved 0.88 accuracy.
+            </p>
+            <div class="tags">
+              <span>Python</span><span>PyTorch</span><span>LLaMA 3</span>
+            </div>
+          </div>
+          <div class="project-card glass">
+            <h3>Diffusion Fashion MNIST</h3>
+            <p>
+              Implementation of a Diffusion Model for generating synthetic
+              fashion images, exploring generative modeling architectures.
+            </p>
+            <div class="tags">
+              <span>Diffusion Models</span><span>Generative AI</span
+              ><span>PyTorch</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/aakash-agarwal-002/diffusion-fashion-mnist"
+                target="_blank"
+                ><i class="fab fa-github"></i> GitHub</a
+              >
+            </div>
+          </div>
+          <div class="project-card glass">
+            <h3>Shape Recognition CNN</h3>
+            <p>
+              A deep learning model for real-time shape recognition with a
+              dedicated interactive web interface.
+            </p>
+            <div class="tags">
+              <span>CNN</span><span>PyTorch</span><span>Computer Vision</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/aakash-agarwal-002/shape-recognition-cnn"
+                target="_blank"
+                ><i class="fab fa-github"></i> GitHub</a
+              >
+              <a
+                href="https://aakash-agarwal-002.github.io/shape-recognition-cnn/"
+                target="_blank"
+                ><i class="fas fa-external-link-alt"></i> Website</a
+              >
+            </div>
+          </div>
+          <div class="project-card glass">
+            <h3>GradSafe</h3>
+            <p>
+              Gradient-based jailbreak detection in LLMs, achieving >70% F1
+              score by analyzing safety-critical parameters.
+            </p>
+            <div class="tags">
+              <span>Security</span><span>Adversarial AI</span>
+            </div>
+          </div>
+          <div class="project-card glass">
+            <h3>LLM Personalization</h3>
+            <p>
+              Developed a profession-aware framework using DPO/GRPO on
+              Gemma-2-2B; evaluated across 8 adaptation dimensions.
+            </p>
+            <div class="tags">
+              <span>LoRA</span><span>DPO</span><span>Alignment</span>
+            </div>
+          </div>
+          <div class="project-card glass">
+            <h3>Multimodal Emotion Recognition</h3>
+            <p>
+              Adapted LLaMA-2 based architecture for emotion recognition using
+              text and speech features.
+            </p>
+            <div class="tags">
+              <span>Whisper</span><span>LoRA</span><span>LLaMA-2</span>
+            </div>
+          </div>
+          <div class="project-card glass">
+            <h3>Neural Hashing for Retrieval</h3>
+            <p>
+              Explored ViT-based image retrieval using neural network-based
+              hashing, achieving 96% mAP on CIFAR-10.
+            </p>
+            <div class="tags">
+              <span>Computer Vision</span><span>ViT</span><span>LSH</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="vibes" class="container">
+        <h2 class="section-title">Vibe Coding</h2>
+        <div class="vibe-grid">
+          <div class="vibe-card glass featured">
+            <div class="vibe-info">
+              <div class="vibe-header">
+                <i class="fab fa-youtube vibe-icon"></i>
+                <h3>Supercharge YouTube</h3>
+              </div>
+              <p>
+                A Chrome extension built with <b>Vibe Coding</b> that enhances
+                your YouTube experience with native-style looping, bookmarks,
+                and productivity features.
+              </p>
+              <div class="vibe-links">
+                <a
+                  href="https://chromewebstore.google.com/detail/supercharge-youtube/afbpoggcamjpjhaofnedlcllkkokfkca?authuser=0&hl=en"
+                  target="_blank"
+                  class="btn primary"
+                  >View on Web Store</a
+                >
+                <a
+                  href="https://aakash-agarwal-002.github.io/supercharge_youtube_features/"
+                  target="_blank"
+                  class="btn secondary"
+                  >Product Website</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="container">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-container">
+          <div class="skill-category">
+            <h3>AI & ML</h3>
+            <div class="skill-tags">
+              <span>Transformers</span><span>LLMs</span><span>LLM Agents</span
+              ><span>Fine-tuning</span><span>LoRA</span><span>RAG</span
+              ><span>PyTorch</span><span>MLflow</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Languages & Tools</h3>
+            <div class="skill-tags">
+              <span>Python</span><span>C++</span><span>SQL</span
+              ><span>Docker</span><span>FastAPI</span><span>Git</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="container">
+        <div class="contact-box glass">
+          <h2>Get In Touch</h2>
+          <p>
+            Feel free to reach out for collaborations or research discussions.
+          </p>
+          <div class="contact-methods">
+            <a href="mailto:aakash.agarwal.002@gmail.com"
+              ><i class="fas fa-envelope"></i> aakash.agarwal.002@gmail.com</a
+            >
+            <a href="https://www.linkedin.com/in/aakash-agarwal-/"
+              ><i class="fab fa-linkedin"></i> LinkedIn</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        &copy; 2026 Aakash Kumar Agarwal. Built with
+        <i class="fas fa-heart"></i> and AI.
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
