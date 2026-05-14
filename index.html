@@ -33,6 +33,7 @@
           <a href="#publications">Publications</a>
           <a href="#experience">Experience</a>
           <a href="#projects">Projects</a>
+          <a href="#achievements">Achievements</a>
           <a href="#vibes">Vibes</a>
           <a href="#contact">Contact</a>
         </div>
@@ -104,35 +105,19 @@
             <p>
               I am an MS by Research student in Computer Science at
               <b>IIT Bombay</b>, working at the intersection of Natural Language
-              Processing and AI Safety. My research focuses on building robust,
-              interpretable, and human-aligned AI systems using Large Language
-              Models, with interests spanning reasoning architectures,
-              safety-aware adaptation, LLM unlearning, and trustworthy NLP
-              systems.
+              Processing and AI Safety. With 4+ years of combined experience across applied research and software engineering, my work focuses on building production LLM systems, post-training pipelines, and agentic AI workflows.
             </p>
 
             <p>
-              Currently, I am developing <b>HyperLoRA</b>, a hypernetwork-based
-              framework for parameter-efficient LLM unlearning, aimed at
-              enabling scalable and controllable adaptation of large language
-              models. The framework leverages hypernetworks to dynamically
+              Currently, I am leading <b>HyperLoRA</b>, a hypernetwork-driven
+              framework for parameter-efficient LLM unlearning. The framework leverages hypernetworks to dynamically
               generate LoRA adapter weights, allowing targeted forgetting while
-              preserving the model’s general capabilities and reasoning
-              performance. My work focuses on efficient unlearning pipelines,
-              safety-aware adaptation, and evaluation across benchmark datasets
-              such as TOFU and SISA.
+              preserving the model’s general capabilities. My implementation achieved <b>97.2% forget-set erasure</b> while retaining <b>94.1% general benchmark performance</b> on TOFU and SISA evaluation suites.
             </p>
 
             <p>
               Previously, I worked as an AI Research Intern at
-              <b>Fujitsu Research</b>, where I developed a hypothesis-driven
-              reasoning framework for Large Language Models focused on iterative
-              reasoning and memory consolidation mechanisms. Earlier, I also
-              conducted research on NLP applications in mental health,
-              particularly depression relapse prediction using cognitive and
-              behavioral signals from social media data. My work has led to
-              publications at leading AI conferences including <b>AAAI</b> and
-              <b>EMNLP</b>.
+              <b>Fujitsu Research</b>, where I architected a modular Hypothesis-Driven Reasoning (HDR) framework that improved reasoning-task accuracy by up to <b>56.7 percentage points</b>. Earlier, I conducted research on NLP applications in mental health, developing a depression-relapse prediction system with <b>0.88 accuracy</b>. My work has led to publications at leading AI conferences including <b>AAAI 2026</b> and <b>EMNLP 2025</b>.
             </p>
 
             <div class="github-activity">
@@ -200,17 +185,17 @@
           <div class="timeline-item">
             <div class="time">May 2025 - Jul 2025</div>
             <div class="content">
-              <h3>AI Research Intern</h3>
-              <h4>Fujitsu Research, Bangalore</h4>
+              <h3>AI Engineer Intern</h3>
+              <h4>Fujitsu Research | AAAI 2026 (Main Track)</h4>
               <ul>
                 <li>
-                  Developed a Hypothesis-Driven Reasoning (HDR) framework to
-                  improve LLM reasoning via iterative hypothesis generation and
-                  verification.
+                  Architected a modular Hypothesis-Driven Reasoning (HDR) framework for LLM inference, improving reasoning-task accuracy by up to 56.7 percentage points.
                 </li>
                 <li>
-                  Built a two-stage memory consolidator with LangChain and
-                  LangGraph.
+                  Engineered a two-stage long-term memory architecture for LangChain/LangGraph agents, reducing inference latency from 18s to 10s.
+                </li>
+                <li>
+                  Built a YAML-driven, MLflow-tracked evaluation harness across 3 model families and 12 reasoning benchmarks (2,400+ runs).
                 </li>
               </ul>
             </div>
@@ -218,16 +203,17 @@
           <div class="timeline-item">
             <div class="time">Jan 2024 - Present</div>
             <div class="content">
-              <h3>Student AI Researcher</h3>
-              <h4>CFILT Lab, IIT Bombay</h4>
+              <h3>Student AI Engineer</h3>
+              <h4>CFILT Lab, IIT Bombay | EMNLP 2025 (Main Track)</h4>
               <ul>
                 <li>
-                  Researching NLP applications in mental health, focusing on
-                  depression relapse prediction.
+                  Designed end-to-end NLP pipelines on large-scale social-media corpora (~1.2M posts), shipping a depression-relapse prediction system with 0.88 accuracy.
                 </li>
                 <li>
-                  Investigating LLM safety under cognitive load and multilingual
-                  conditions.
+                  Leading HyperLoRA: a hypernetwork-driven framework for parameter-efficient LLM unlearning; achieved 97.2% forget-set erasure.
+                </li>
+                <li>
+                  Developed multilingual safety evaluation workflows covering 6 languages and 400+ adversarial probes.
                 </li>
               </ul>
             </div>
@@ -235,15 +221,14 @@
           <div class="timeline-item">
             <div class="time">May 2019 - Jul 2021</div>
             <div class="content">
-              <h3>Application Development Associate</h3>
+              <h3>Software Engineer</h3>
               <h4>Accenture</h4>
               <ul>
                 <li>
-                  Developed and maintained software applications to meet client
-                  requirements.
+                  Delivered 14+ backend features across 3 enterprise applications using Python, REST APIs, and SQL.
                 </li>
                 <li>
-                  Participated in full SDLC from requirements to deployment.
+                  Maintained Python backend services processing 500K+ daily requests, improving average API response times by 22% through query optimization.
                 </li>
               </ul>
             </div>
@@ -261,7 +246,7 @@
               parameter-efficient LLM unlearning (TOFU-SISA benchmarks).
             </p>
             <div class="tags">
-              <span>Hypernetworks</span><span>LoRA</span><span>Unlearning</span>
+              <span>Hypernetworks</span><span>LoRA</span><span>PEFT</span><span>Unlearning</span>
             </div>
           </div>
           <div class="project-card glass">
@@ -271,7 +256,7 @@
               predict relapse from social media posts. Achieved 0.88 accuracy.
             </p>
             <div class="tags">
-              <span>Python</span><span>PyTorch</span><span>LLaMA 3</span>
+              <span>Python</span><span>PyTorch</span><span>LLaMA 3</span><span>Temporal Modeling</span>
             </div>
           </div>
           <div class="project-card glass">
@@ -321,17 +306,17 @@
               score by analyzing safety-critical parameters.
             </p>
             <div class="tags">
-              <span>Security</span><span>Adversarial AI</span>
+              <span>Safety</span><span>Adversarial ML</span><span>PyTorch</span>
             </div>
           </div>
           <div class="project-card glass">
             <h3>LLM Personalization</h3>
             <p>
               Developed a profession-aware framework using DPO/GRPO on
-              Gemma-2-2B; evaluated across 8 adaptation dimensions.
+              Gemma-2-2B over 150K preference pairs.
             </p>
             <div class="tags">
-              <span>LoRA</span><span>DPO</span><span>Alignment</span>
+              <span>LoRA</span><span>DPO</span><span>GRPO</span><span>Alignment</span>
             </div>
           </div>
           <div class="project-card glass">
@@ -364,12 +349,13 @@
             <div class="vibe-info">
               <div class="vibe-header">
                 <i class="fab fa-youtube vibe-icon"></i>
-                <h3>Supercharge YouTube</h3>
+                <h3>Supercharge YouTube, JioHotstar, SonyLIV</h3>
               </div>
               <p>
                 A Chrome extension built with <b>Vibe Coding</b> that enhances
-                your YouTube experience with native-style looping, bookmarks,
-                and productivity features.
+                your YouTube, JioHotstar, SonyLIV experience with double tap to
+                skip, native-style looping, bookmarks, and productivity
+                features.
               </p>
               <div class="vibe-links">
                 <a
@@ -396,16 +382,36 @@
           <div class="skill-category">
             <h3>AI & ML</h3>
             <div class="skill-tags">
-              <span>Transformers</span><span>LLMs</span><span>LLM Agents</span
-              ><span>Fine-tuning</span><span>LoRA</span><span>RAG</span
-              ><span>PyTorch</span><span>MLflow</span>
+              <span>Transformers</span><span>LLMs</span><span>Agentic AI</span
+              ><span>DPO / GRPO</span><span>LoRA / PEFT</span><span>RAG</span
+              ><span>PyTorch</span><span>LangGraph</span><span>vLLM</span>
             </div>
           </div>
           <div class="skill-category">
             <h3>Languages & Tools</h3>
             <div class="skill-tags">
               <span>Python</span><span>C++</span><span>SQL</span
-              ><span>Docker</span><span>FastAPI</span><span>Git</span>
+              ><span>Docker</span><span>MLflow</span><span>FastAPI</span><span>Git</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="achievements" class="container">
+        <h2 class="section-title">Achievements & Highlights</h2>
+        <div class="achievements-grid">
+          <div class="achievement-card glass">
+            <div class="ach-icon"><i class="fas fa-trophy"></i></div>
+            <div class="ach-info">
+              <h3>GATE CS 2023</h3>
+              <p><b>All India Rank 156</b> out of 75,680 candidates (Top 0.2 percentile).</p>
+            </div>
+          </div>
+          <div class="achievement-card glass">
+            <div class="ach-icon"><i class="fas fa-star"></i></div>
+            <div class="ach-info">
+              <h3>Research Excellence</h3>
+              <p>Two top-tier publications in consecutive cycles: <b>AAAI 2026</b> and <b>EMNLP 2025</b>.</p>
             </div>
           </div>
         </div>

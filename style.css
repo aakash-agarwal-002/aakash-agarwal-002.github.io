@@ -572,6 +572,42 @@ h1 {
     font-weight: 600;
 }
 
+/* Achievements */
+.achievements-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.achievement-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.ach-icon {
+    font-size: 2rem;
+    color: var(--accent-primary);
+    background: rgba(99, 102, 241, 0.1);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    flex-shrink: 0;
+}
+
+.ach-info h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.ach-info p {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+}
+
 /* Vibe Coding */
 .vibe-grid {
     display: flex;
