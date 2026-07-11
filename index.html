@@ -112,12 +112,12 @@
               Currently, I am leading <b>HyperLoRA</b>, a hypernetwork-driven
               framework for parameter-efficient LLM unlearning. The framework leverages hypernetworks to dynamically
               generate LoRA adapter weights, allowing targeted forgetting while
-              preserving the model’s general capabilities. My implementation achieved <b>97.2% forget-set erasure</b> while retaining <b>94.1% general benchmark performance</b> on TOFU and SISA evaluation suites.
+              preserving the model’s general capabilities. My implementation matches a full retrain-from-scratch on the TOFU unlearning benchmark (<b>0.80 vs. 0.81 aggregate score</b>) while retaining <b>~99% of the model’s utility</b>, and deletes a shard in <b>O(1)</b> time by discarding its embedding — far above tuned post-hoc baselines (<b>0.53</b>).
             </p>
 
             <p>
               Previously, I worked as an AI Research Intern at
-              <b>Fujitsu Research</b>, where I architected a modular Hypothesis-Driven Reasoning (HDR) framework that improved reasoning-task accuracy by up to <b>56.7 percentage points</b>. Earlier, I conducted research on NLP applications in mental health, developing a depression-relapse prediction system with <b>0.88 accuracy</b>. My work has led to publications at leading AI conferences including <b>AAAI 2026</b> and <b>EMNLP 2025</b>.
+              <b>Fujitsu Research</b>, where I architected a modular Hypothesis-Driven Reasoning (HDR) framework that improved reasoning-task accuracy by up to <b>56.7%</b> over baselines. Earlier, I conducted research on NLP applications in mental health, developing a depression-relapse prediction system with <b>0.88 accuracy</b>. My work has led to publications at leading AI conferences including <b>AAAI 2026</b> and <b>EMNLP 2025</b>.
             </p>
 
             <div class="github-activity">
@@ -148,6 +148,15 @@
       <section id="publications" class="container">
         <h2 class="section-title">Selected Publications</h2>
         <div class="pub-list">
+          <div class="pub-card glass">
+            <div class="pub-tag">Under Review</div>
+            <h3>Learning to Forget: Hypernetwork-Driven Sharded Unlearning in LLMs</h3>
+            <p class="authors">
+              <b>Aakash Kumar Agarwal</b>, Om Chaudhari, Nihar Ranjan Sahoo,
+              Abhinav Joshi, Ashutosh Modi
+            </p>
+            <p class="venue">Under review at ACL ARR 2026</p>
+          </div>
           <div class="pub-card glass">
             <div class="pub-tag">AAAI 2026</div>
             <h3>Hypothesis-Driven Reasoning for Large Language Models</h3>
@@ -185,11 +194,11 @@
           <div class="timeline-item">
             <div class="time">May 2025 - Jul 2025</div>
             <div class="content">
-              <h3>AI Engineer Intern</h3>
+              <h3>AI Research Engineer Intern</h3>
               <h4>Fujitsu Research | AAAI 2026 (Main Track)</h4>
               <ul>
                 <li>
-                  Architected a modular Hypothesis-Driven Reasoning (HDR) framework for LLM inference, improving reasoning-task accuracy by up to 56.7 percentage points.
+                  Architected a modular Hypothesis-Driven Reasoning (HDR) framework for LLM inference, improving reasoning-task accuracy by up to 56.7% over baselines.
                 </li>
                 <li>
                   Engineered a two-stage long-term memory architecture for LangChain/LangGraph agents, reducing inference latency from 18s to 10s.
@@ -203,17 +212,17 @@
           <div class="timeline-item">
             <div class="time">Jan 2024 - Present</div>
             <div class="content">
-              <h3>Student AI Engineer</h3>
+              <h3>Student AI Researcher</h3>
               <h4>CFILT Lab, IIT Bombay | EMNLP 2025 (Main Track)</h4>
               <ul>
                 <li>
                   Designed end-to-end NLP pipelines on large-scale social-media corpora (~1.2M posts), shipping a depression-relapse prediction system with 0.88 accuracy.
                 </li>
                 <li>
-                  Leading HyperLoRA: a hypernetwork-driven framework for parameter-efficient LLM unlearning; achieved 97.2% forget-set erasure.
+                  Leading HyperLoRA: a hypernetwork-driven framework for parameter-efficient LLM unlearning; matches a from-scratch retrain (0.80 vs. 0.81 aggregate score) at ~99% retained utility, far above tuned post-hoc baselines (0.53).
                 </li>
                 <li>
-                  Developed multilingual safety evaluation workflows covering 6 languages and 400+ adversarial probes.
+                  Developed multilingual safety evaluation workflows across English and four Indian languages, with 400+ adversarial probes.
                 </li>
               </ul>
             </div>
@@ -221,7 +230,7 @@
           <div class="timeline-item">
             <div class="time">May 2019 - Jul 2021</div>
             <div class="content">
-              <h3>Software Engineer</h3>
+              <h3>Software Developer</h3>
               <h4>Accenture</h4>
               <ul>
                 <li>
@@ -404,7 +413,7 @@
             <div class="ach-icon"><i class="fas fa-trophy"></i></div>
             <div class="ach-info">
               <h3>GATE CS 2023</h3>
-              <p><b>All India Rank 156</b> out of 75,680 candidates (Top 0.2 percentile).</p>
+              <p><b>All India Rank 156</b> out of 75,680 candidates (Top 0.2%).</p>
             </div>
           </div>
           <div class="achievement-card glass">
