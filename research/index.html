@@ -4,21 +4,21 @@
   <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Aakash Kumar Agarwal | AI/ML Engineer</title>
+    <title>Aakash Kumar Agarwal | AI Researcher</title>
     <meta
-      content="Aakash Kumar Agarwal, AI/ML Engineer building LLM systems, agentic workflows, post-training and evaluation pipelines. MS by Research, IIT Bombay."
+      content="Aakash Kumar Agarwal, AI Researcher at IIT Bombay working on LLM reasoning, machine unlearning, LLM safety, and NLP for mental health. Publications at AAAI 2026 and EMNLP 2025."
       name="description"
     />
-    <meta content="https://aakash-agarwal-002.github.io/" property="og:url" />
+    <meta content="https://aakash-agarwal-002.github.io/research/" property="og:url" />
     <meta
       content="https://aakash-agarwal-002.github.io/assets/images/avatar.jpeg"
       property="og:image"
     />
     <meta
-      content="Aakash Kumar Agarwal, AI/ML Engineer building LLM systems, agentic workflows, post-training and evaluation pipelines. MS by Research, IIT Bombay."
+      content="Aakash Kumar Agarwal, AI Researcher at IIT Bombay working on LLM reasoning, machine unlearning, LLM safety, and NLP for mental health. Publications at AAAI 2026 and EMNLP 2025."
       property="og:description"
     />
-    <meta content="Aakash Kumar Agarwal | AI/ML Engineer" property="og:title" />
+    <meta content="Aakash Kumar Agarwal | AI Researcher" property="og:title" />
 
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
@@ -41,11 +41,9 @@
         <a class="logo" href="#">AA</a>
         <div class="nav-links">
           <a href="#about">About</a>
+          <a href="#publications">Publications</a>
           <a href="#experience">Experience</a>
           <a href="#projects">Projects</a>
-          <a href="#skills">Skills</a>
-          <a href="#vibes">Vibes</a>
-          <a href="#publications">Publications</a>
           <a href="#achievements">Achievements</a>
           <a href="#contact">Contact</a>
         </div>
@@ -62,13 +60,12 @@
             <img alt="Aakash Kumar Agarwal" class="profile-img" src="/assets/images/avatar.jpeg" />
           </div>
           <h1 class="glitch-text" data-text="Aakash Kumar Agarwal">Aakash Kumar Agarwal</h1>
-
-          <p class="tagline">AI/ML Engineer @ <span class="highlight">IIT Bombay</span></p>
+          <p class="tagline">AI Researcher @ <span class="highlight">CFILT, IIT Bombay</span></p>
 
           <p class="topics">
-            LLM Systems • Agentic AI • Fine-tuning &amp; Post-training • Evaluation Pipelines • Data
-            Pipelines
+            LLM Reasoning • Machine Unlearning • LLM Safety • Post-training • NLP for Mental Health
           </p>
+
           <div class="social-links">
             <a href="https://github.com/aakash-agarwal-002" target="_blank" title="GitHub"
               ><i class="fab fa-github"></i
@@ -87,11 +84,11 @@
             ></a>
           </div>
           <div class="cta-buttons">
-            <a class="btn primary" href="/resumes/resume_aakash_ai_engineer.pdf" target="_blank"
+            <a class="btn primary" href="/resumes/resume_aakash_ai_research.pdf" target="_blank"
               >View Resume</a
             >
 
-            <a class="btn secondary" href="#projects">Projects</a>
+            <a class="btn secondary" href="#publications">Recent Work</a>
           </div>
         </div>
       </section>
@@ -101,26 +98,30 @@
           <div class="about-text">
             <div>
               <p>
-                I am an AI/ML engineer and MS by Research graduate in Computer Science from
-                <b>IIT Bombay</b>, with 4+ years across software engineering and applied AI. I build
-                <b>LLM, multimodal, and machine learning systems</b>: fine-tuning and post-training,
-                evaluation harnesses, agentic workflows, and data pipelines, using PyTorch, Hugging
-                Face, LangGraph, FastAPI, Docker, and SQL.
+                I am an AI researcher and MS by Research graduate in Computer Science from
+                <b>IIT Bombay</b>. My research focuses on
+                <b>LLMs, post-training, machine unlearning, reasoning, multimodal AI, and safety</b
+                >. I am first/equal-contribution author of papers at <b>AAAI 2026</b> and
+                <b>EMNLP 2025</b>.
               </p>
               <p>
-                I built <b>HyperLoRA</b>, a PyTorch system that generates per-shard LoRA adapters on
-                the fly, so a data shard can be removed from a model in <b>O(1)</b> time with the
-                base model frozen. Its deployable router scores <b>0.80 AGG</b> on TOFU, against
-                0.81 for a full retrain and 0.53 for the strongest tuned post-hoc baseline.
+                My current work, <b>HyperLoRA</b>, is a hypernetwork that generates per-shard LoRA
+                adapters from learned shard embeddings. It enables auditable unlearning through
+                <b>O(1)</b> embedding deletion while keeping the base LLM frozen. On the TOFU
+                benchmark, deployable routing reaches <b>0.80 AGG</b>, comparable to retraining from
+                scratch (<b>0.81</b>) and well above the strongest tuned post-hoc baseline
+                (<b>0.53</b>).
               </p>
               <p>
-                As an AI/ML Engineer Intern at <b>Fujitsu Research</b>, I built multi-stage LLM
-                workflows with LangChain and LangGraph, cut agent inference latency from
-                <b>18s to 10s</b>, and ran an MLflow-tracked evaluation harness over
-                <b>2,400+ runs</b>. Before my MS, I spent two years as a Software Developer at
-                <b>Accenture</b> shipping backend features in Python and SQL.
+                At <b>Fujitsu Research</b>, I developed Hypothesis-Driven Reasoning (HDR), an
+                iterative generate-and-verify framework for LLM reasoning over multimodal
+                observations, improving accuracy by up to <b>56.7%</b> over baselines. At
+                <b>CFILT, IIT Bombay</b>, my MS research on depression relapse detection from social
+                media showed that modeling cognitive biases improves accuracy from 0.81 to
+                <b>0.88</b>.
               </p>
             </div>
+
             <div class="github-activity">
               <h3>GitHub Activity</h3>
               <img
@@ -141,231 +142,6 @@
               <span class="year">2015 - 2019</span>
               <h4>B.Tech in Computer Science</h4>
               <p>Amity University</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="container" id="experience">
-        <h2 class="section-title">Experience</h2>
-        <div class="timeline">
-          <div class="timeline-item">
-            <div class="time">May 2025 - Jul 2025</div>
-            <div class="content">
-              <h3>AI/ML Engineer Intern</h3>
-              <h4>Fujitsu Research | AAAI 2026 (Main Track)</h4>
-              <ul>
-                <li>
-                  Architected a modular Hypothesis-Driven Reasoning (HDR) framework for LLM
-                  inference, improving reasoning-task accuracy by up to 56.7% over baselines.
-                </li>
-                <li>
-                  Engineered a two-stage long-term memory architecture for LangChain/LangGraph
-                  agents, reducing inference latency from 18s to 10s.
-                </li>
-                <li>
-                  Built a YAML-driven, MLflow-tracked evaluation harness across 3 model families and
-                  12 reasoning benchmarks (2,400+ runs).
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="timeline-item">
-            <div class="time">Jan 2024 - Present</div>
-            <div class="content">
-              <h3>AI/ML Engineer</h3>
-              <h4>CFILT Lab, IIT Bombay | EMNLP 2025 (Main Track)</h4>
-              <ul>
-                <li>
-                  Designed end-to-end NLP pipelines on large-scale social-media corpora (~1.2M
-                  posts), shipping a depression-relapse prediction system with 0.88 accuracy.
-                </li>
-
-                <li>
-                  Developed data processing, model training, and evaluation pipelines involving
-                  multiple foundation models, large datasets, and automated benchmarking.
-                </li>
-                <li>
-                  Developed multilingual safety evaluation workflows across English and four Indian
-                  languages, with 400+ adversarial probes.
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="timeline-item">
-            <div class="time">May 2019 - Jul 2021</div>
-            <div class="content">
-              <h3>Software Developer</h3>
-              <h4>Accenture</h4>
-              <ul>
-                <li>
-                  Delivered 14+ backend features across 3 enterprise applications using Python, REST
-                  APIs, and SQL.
-                </li>
-                <li>
-                  Maintained Python backend services processing 500K+ daily requests, improving
-                  average API response times by 22% through query optimization.
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="container" id="projects">
-        <h2 class="section-title">Projects</h2>
-
-        <div class="project-grid">
-          <div class="project-card glass">
-            <h3>HyperLoRA for Unlearning</h3>
-
-            <p>
-              PyTorch system that generates per-shard LoRA adapters on the fly; benchmarked five
-              routing strategies with LLaMA-3.2 on TOFU.
-            </p>
-            <div class="tags">
-              <span>Hypernetworks</span><span>LoRA</span><span>PEFT</span><span>Unlearning</span>
-            </div>
-          </div>
-          <div class="project-card glass">
-            <h3>Detecting Depression Relapse</h3>
-
-            <p>
-              End-to-end ML pipeline over 10 years of Reddit data: ingestion, LLM-assisted labeling,
-              feature extraction, and temporal transformer models. Achieved 0.88 accuracy.
-            </p>
-            <div class="tags">
-              <span>Python</span><span>PyTorch</span><span>LLaMA 3</span
-              ><span>Temporal Modeling</span>
-            </div>
-          </div>
-          <div class="project-card glass">
-            <h3>Diffusion Fashion MNIST</h3>
-            <p>
-              Implementation of a Diffusion Model for generating synthetic fashion images, exploring
-              generative modeling architectures.
-            </p>
-            <div class="tags">
-              <span>Diffusion Models</span><span>Generative AI</span><span>PyTorch</span>
-            </div>
-            <div class="project-links">
-              <a
-                href="https://github.com/aakash-agarwal-002/diffusion-fashion-mnist"
-                target="_blank"
-                ><i class="fab fa-github"></i> GitHub</a
-              >
-            </div>
-          </div>
-          <div class="project-card glass">
-            <h3>Shape Recognition CNN</h3>
-            <p>
-              A deep learning model for real-time shape recognition with a dedicated interactive web
-              interface.
-            </p>
-            <div class="tags"><span>CNN</span><span>PyTorch</span><span>Computer Vision</span></div>
-            <div class="project-links">
-              <a href="https://github.com/aakash-agarwal-002/shape-recognition-cnn" target="_blank"
-                ><i class="fab fa-github"></i> GitHub</a
-              >
-              <a href="https://aakash-agarwal-002.github.io/shape-recognition-cnn/" target="_blank"
-                ><i class="fas fa-external-link-alt"></i> Website</a
-              >
-            </div>
-          </div>
-          <div class="project-card glass">
-            <h3>GradSafe</h3>
-            <p>
-              Gradient-based jailbreak detection in LLMs, achieving &gt;70% F1 score by analyzing
-              safety-critical parameters.
-            </p>
-            <div class="tags">
-              <span>Safety</span><span>Adversarial ML</span><span>PyTorch</span>
-            </div>
-          </div>
-          <div class="project-card glass">
-            <h3>LLM Personalization</h3>
-            <p>
-              Developed a profession-aware framework using DPO/GRPO on Gemma-2-2B over 150K
-              preference pairs.
-            </p>
-            <div class="tags">
-              <span>LoRA</span><span>DPO</span><span>GRPO</span><span>Alignment</span>
-            </div>
-          </div>
-          <div class="project-card glass">
-            <h3>Multimodal Emotion Recognition</h3>
-            <p>
-              Adapted LLaMA-2 based architecture for emotion recognition using text and speech
-              features.
-            </p>
-            <div class="tags"><span>Whisper</span><span>LoRA</span><span>LLaMA-2</span></div>
-          </div>
-          <div class="project-card glass">
-            <h3>Neural Hashing for Retrieval</h3>
-            <p>
-              Explored ViT-based image retrieval using neural network-based hashing, achieving 96%
-              mAP on CIFAR-10.
-            </p>
-            <div class="tags"><span>Computer Vision</span><span>ViT</span><span>LSH</span></div>
-          </div>
-        </div>
-      </section>
-      <section class="container" id="skills">
-        <h2 class="section-title">Technical Skills</h2>
-
-        <div class="skills-container">
-          <div class="skill-category">
-            <h3>ML &amp; LLM Engineering</h3>
-            <div class="skill-tags">
-              <span>PyTorch</span><span>Hugging Face</span><span>Transformers</span
-              ><span>Fine-tuning</span><span>LoRA / PEFT</span><span>DPO / GRPO</span
-              ><span>RAG</span><span>LLM Evaluation</span><span>Multimodal LLMs</span
-              ><span>vLLM</span><span>Scikit-learn</span>
-            </div>
-          </div>
-          <div class="skill-category">
-            <h3>AI Systems</h3>
-            <div class="skill-tags">
-              <span>LangChain</span><span>LangGraph</span><span>AI Agents</span><span>MCP</span
-              ><span>Tool Calling</span><span>Embedding / Retrieval Pipelines</span>
-            </div>
-          </div>
-          <div class="skill-category">
-            <h3>Backend &amp; Infrastructure</h3>
-            <div class="skill-tags">
-              <span>Python</span><span>C++</span><span>SQL</span><span>FastAPI</span
-              ><span>REST APIs</span><span>Docker</span><span>MLflow</span><span>Git</span
-              ><span>Linux / Bash</span>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="container" id="vibes">
-        <h2 class="section-title">Vibe Coding</h2>
-        <div class="vibe-grid">
-          <div class="vibe-card glass featured">
-            <div class="vibe-info">
-              <div class="vibe-header">
-                <i class="fab fa-youtube vibe-icon"></i>
-                <h3>Supercharge YouTube, JioHotstar, SonyLIV</h3>
-              </div>
-              <p>
-                A Chrome extension built with <b>Vibe Coding</b> that enhances your YouTube,
-                JioHotstar, SonyLIV experience with double tap to skip, native-style looping,
-                bookmarks, and productivity features.
-              </p>
-              <div class="vibe-links">
-                <a
-                  class="btn primary"
-                  href="https://chromewebstore.google.com/detail/supercharge-youtube/afbpoggcamjpjhaofnedlcllkkokfkca?authuser=0&amp;hl=en"
-                  target="_blank"
-                  >View on Web Store</a
-                >
-                <a
-                  class="btn secondary"
-                  href="https://aakash-agarwal-002.github.io/supercharge_youtube_features/"
-                  target="_blank"
-                  >Product Website</a
-                >
-              </div>
             </div>
           </div>
         </div>
@@ -410,6 +186,162 @@
           </div>
         </div>
       </section>
+      <section class="container" id="experience">
+        <h2 class="section-title">Experience</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="time">May 2025 - Jul 2025</div>
+            <div class="content">
+              <h3>AI Research Engineer Intern</h3>
+
+              <h4>Fujitsu Research | AAAI 2026 (Main Track)</h4>
+
+              <ul>
+                <li>
+                  Developed Hypothesis-Driven Reasoning (HDR), an iterative generate-and-verify
+                  framework for improving LLM reasoning over multimodal observations.
+                </li>
+                <li>
+                  Built a two-stage memory consolidation pipeline with LangChain/LangGraph and
+                  introduced an Experience-Transfer task to evaluate compositional generalization in
+                  unseen multimodal settings.
+                </li>
+                <li>
+                  Evaluated HDR on GPT-4o, Qwen2.5, and Gemma3, achieving near-oracle performance
+                  and up to 56.7% improvement over baselines.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="time">Jan 2024 - Present</div>
+            <div class="content">
+              <h3>Student AI Researcher</h3>
+
+              <h4>CFILT Lab, IIT Bombay | EMNLP 2025 (Main Track)</h4>
+
+              <ul>
+                <li>
+                  Conducted research on NLP for mental health, LLM safety, multilingual adversarial
+                  robustness, and reasoning, including large-scale LLM-based social-media analysis.
+                </li>
+                <li>
+                  Leading HyperLoRA: hypernetwork-generated LoRA adapters for auditable LLM
+                  unlearning; comparable to retraining from scratch (0.80 vs. 0.81 AGG) and far
+                  above tuned post-hoc baselines (0.53).
+                </li>
+                <li>
+                  Showed that cognitive load reduces LLMs' attention to safety signals, across
+                  English and four Indian languages.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="time">May 2019 - Jul 2021</div>
+            <div class="content">
+              <h3>Software Developer</h3>
+              <h4>Accenture</h4>
+
+              <ul>
+                <li>
+                  Developed and maintained production software applications across requirements,
+                  implementation, testing, and deployment.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container" id="projects">
+        <h2 class="section-title">Research Projects</h2>
+        <div class="project-grid">
+          <div class="project-card glass">
+            <h3>HyperLoRA for Unlearning</h3>
+
+            <p>
+              Hypernetwork-generated per-shard LoRA adapters for auditable LLM unlearning via O(1)
+              embedding deletion; 0.80 AGG on TOFU vs. 0.81 for retraining from scratch.
+            </p>
+
+            <div class="tags">
+              <span>Hypernetworks</span><span>LoRA</span><span>PEFT</span><span>Unlearning</span>
+            </div>
+          </div>
+          <div class="project-card glass">
+            <h3>Detecting Depression Relapse</h3>
+            <p>
+              MS Thesis project using cognitive biases and temporal modeling to predict relapse from
+              social media posts. Achieved 0.88 accuracy.
+            </p>
+
+            <div class="tags">
+              <span>Python</span><span>PyTorch</span><span>LLaMA 3</span
+              ><span>Temporal Modeling</span>
+            </div>
+          </div>
+
+          <div class="project-card glass">
+            <h3>GradSafe</h3>
+            <p>
+              Gradient-based jailbreak detection in LLMs, achieving &gt;70% F1 score by analyzing
+              safety-critical parameters.
+            </p>
+            <div class="tags">
+              <span>Safety</span><span>Adversarial ML</span><span>PyTorch</span>
+            </div>
+          </div>
+          <div class="project-card glass">
+            <h3>LLM Personalization</h3>
+            <p>
+              Developed a profession-aware framework using DPO/GRPO on Gemma-2-2B over 150K
+              preference pairs.
+            </p>
+            <div class="tags">
+              <span>LoRA</span><span>DPO</span><span>GRPO</span><span>Alignment</span>
+            </div>
+          </div>
+          <div class="project-card glass">
+            <h3>Multimodal Emotion Recognition</h3>
+            <p>
+              Adapted LLaMA-2 based architecture for emotion recognition using text and speech
+              features.
+            </p>
+            <div class="tags"><span>Whisper</span><span>LoRA</span><span>LLaMA-2</span></div>
+          </div>
+          <div class="project-card glass">
+            <h3>Neural Hashing for Retrieval</h3>
+            <p>
+              Explored ViT-based image retrieval using neural network-based hashing, achieving 96%
+              mAP on CIFAR-10.
+            </p>
+            <div class="tags"><span>Computer Vision</span><span>ViT</span><span>LSH</span></div>
+          </div>
+        </div>
+      </section>
+      <section class="container" id="skills">
+        <h2 class="section-title">Technical Skills</h2>
+
+        <div class="skills-container">
+          <div class="skill-category">
+            <h3>LLMs &amp; ML</h3>
+            <div class="skill-tags">
+              <span>PyTorch</span><span>Hugging Face</span><span>Transformers</span
+              ><span>Fine-tuning</span><span>LoRA / PEFT</span><span>DPO / GRPO</span
+              ><span>RAG</span><span>LLM Evaluation</span><span>Multimodal LLMs</span
+              ><span>Machine Unlearning</span><span>LLM Safety</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Agentic AI &amp; Engineering</h3>
+            <div class="skill-tags">
+              <span>LangChain</span><span>LangGraph</span><span>AI Agents</span><span>MCP</span
+              ><span>Python</span><span>C++</span><span>SQL</span><span>Docker</span
+              ><span>Git</span>
+            </div>
+          </div>
+        </div>
+      </section>
       <section class="container" id="achievements">
         <h2 class="section-title">Achievements &amp; Highlights</h2>
         <div class="achievements-grid">
@@ -423,7 +355,7 @@
           <div class="achievement-card glass">
             <div class="ach-icon"><i class="fas fa-star"></i></div>
             <div class="ach-info">
-              <h3>Top-Tier Publications</h3>
+              <h3>Research Excellence</h3>
               <p>
                 Two top-tier publications in consecutive cycles: <b>AAAI 2026</b> and
                 <b>EMNLP 2025</b>.
@@ -436,7 +368,8 @@
         <div class="contact-box glass">
           <h2>Get In Touch</h2>
 
-          <p>Feel free to reach out about AI/ML engineering roles or projects.</p>
+          <p>Feel free to reach out for research collaborations or discussions.</p>
+
           <div class="contact-methods">
             <a href="mailto:aakash.agarwal.002@gmail.com"
               ><i class="fas fa-envelope"></i> aakash.agarwal.002@gmail.com</a
